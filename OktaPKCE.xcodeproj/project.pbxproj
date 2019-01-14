@@ -14,6 +14,11 @@
 		10E6342B21E9B28F009F4832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E6342921E9B28F009F4832 /* LaunchScreen.storyboard */; };
 		10E6343621E9B28F009F4832 /* OktaPKCETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E6343521E9B28F009F4832 /* OktaPKCETests.swift */; };
 		10E6344121E9B28F009F4832 /* OktaPKCEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E6344021E9B28F009F4832 /* OktaPKCEUITests.swift */; };
+		10E6345021E9B45C009F4832 /* AuthnResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E6344F21E9B45C009F4832 /* AuthnResponse.swift */; };
+		10E9620721EC058D00BD08A2 /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E9620621EC058D00BD08A2 /* TokenResponse.swift */; };
+		52177B4A6A45429A2C6CF8E2 /* Pods_OktaPKCE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B97DCDA5909F1A79FD0C58 /* Pods_OktaPKCE.framework */; };
+		DE0941E7278788721F40B5AB /* Pods_OktaPKCETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9940CE67F53B9E692BF380 /* Pods_OktaPKCETests.framework */; };
+		FA017A30D632877C705206CB /* Pods_OktaPKCEUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC88CE77B6175D8AD3A7132 /* Pods_OktaPKCEUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D9940CE67F53B9E692BF380 /* Pods_OktaPKCETests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OktaPKCETests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E6341D21E9B28C009F4832 /* OktaPKCE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OktaPKCE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E6342021E9B28C009F4832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10E6342221E9B28C009F4832 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,16 @@
 		10E6343C21E9B28F009F4832 /* OktaPKCEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OktaPKCEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E6344021E9B28F009F4832 /* OktaPKCEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OktaPKCEUITests.swift; sourceTree = "<group>"; };
 		10E6344221E9B28F009F4832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10E6344F21E9B45C009F4832 /* AuthnResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthnResponse.swift; sourceTree = "<group>"; };
+		10E9620621EC058D00BD08A2 /* TokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponse.swift; sourceTree = "<group>"; };
+		2AC88CE77B6175D8AD3A7132 /* Pods_OktaPKCEUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OktaPKCEUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		634C9ADB90DD0DC867AD8FFF /* Pods-OktaPKCEUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OktaPKCEUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OktaPKCEUITests/Pods-OktaPKCEUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A0A04DF45F43DF050E02BCE /* Pods-OktaPKCETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OktaPKCETests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OktaPKCETests/Pods-OktaPKCETests.release.xcconfig"; sourceTree = "<group>"; };
+		75B97DCDA5909F1A79FD0C58 /* Pods_OktaPKCE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OktaPKCE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		766BAF056F3850BC761C7E7E /* Pods-OktaPKCEUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OktaPKCEUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OktaPKCEUITests/Pods-OktaPKCEUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7DE82947FFFCBC75CE864BA9 /* Pods-OktaPKCE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OktaPKCE.release.xcconfig"; path = "Pods/Target Support Files/Pods-OktaPKCE/Pods-OktaPKCE.release.xcconfig"; sourceTree = "<group>"; };
+		AA48158F26FDAFFB0F104C89 /* Pods-OktaPKCETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OktaPKCETests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OktaPKCETests/Pods-OktaPKCETests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEAAD200A94832CC06C71E56 /* Pods-OktaPKCE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OktaPKCE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OktaPKCE/Pods-OktaPKCE.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52177B4A6A45429A2C6CF8E2 /* Pods_OktaPKCE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0941E7278788721F40B5AB /* Pods_OktaPKCETests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA017A30D632877C705206CB /* Pods_OktaPKCEUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 				10E6343421E9B28F009F4832 /* OktaPKCETests */,
 				10E6343F21E9B28F009F4832 /* OktaPKCEUITests */,
 				10E6341E21E9B28C009F4832 /* Products */,
+				BADD0427CCAE95D50A2F4EFB /* Pods */,
+				4DFE3E93827B785414941F7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +118,7 @@
 		10E6341F21E9B28C009F4832 /* OktaPKCE */ = {
 			isa = PBXGroup;
 			children = (
+				10E6344E21E9B446009F4832 /* Models */,
 				10E6342021E9B28C009F4832 /* AppDelegate.swift */,
 				10E6342221E9B28C009F4832 /* ViewController.swift */,
 				10E6342421E9B28C009F4832 /* Main.storyboard */,
@@ -125,6 +147,38 @@
 			path = OktaPKCEUITests;
 			sourceTree = "<group>";
 		};
+		10E6344E21E9B446009F4832 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				10E6344F21E9B45C009F4832 /* AuthnResponse.swift */,
+				10E9620621EC058D00BD08A2 /* TokenResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4DFE3E93827B785414941F7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75B97DCDA5909F1A79FD0C58 /* Pods_OktaPKCE.framework */,
+				0D9940CE67F53B9E692BF380 /* Pods_OktaPKCETests.framework */,
+				2AC88CE77B6175D8AD3A7132 /* Pods_OktaPKCEUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BADD0427CCAE95D50A2F4EFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEAAD200A94832CC06C71E56 /* Pods-OktaPKCE.debug.xcconfig */,
+				7DE82947FFFCBC75CE864BA9 /* Pods-OktaPKCE.release.xcconfig */,
+				AA48158F26FDAFFB0F104C89 /* Pods-OktaPKCETests.debug.xcconfig */,
+				6A0A04DF45F43DF050E02BCE /* Pods-OktaPKCETests.release.xcconfig */,
+				634C9ADB90DD0DC867AD8FFF /* Pods-OktaPKCEUITests.debug.xcconfig */,
+				766BAF056F3850BC761C7E7E /* Pods-OktaPKCEUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10E6344521E9B28F009F4832 /* Build configuration list for PBXNativeTarget "OktaPKCE" */;
 			buildPhases = (
+				DE6B4AB44C593BDA79D50787 /* [CP] Check Pods Manifest.lock */,
 				10E6341921E9B28C009F4832 /* Sources */,
 				10E6341A21E9B28C009F4832 /* Frameworks */,
 				10E6341B21E9B28C009F4832 /* Resources */,
+				F3F20A2E55C09F95865945D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10E6344821E9B28F009F4832 /* Build configuration list for PBXNativeTarget "OktaPKCETests" */;
 			buildPhases = (
+				5A1F2A4BF50F208A96339E65 /* [CP] Check Pods Manifest.lock */,
 				10E6342D21E9B28F009F4832 /* Sources */,
 				10E6342E21E9B28F009F4832 /* Frameworks */,
 				10E6342F21E9B28F009F4832 /* Resources */,
@@ -167,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10E6344B21E9B28F009F4832 /* Build configuration list for PBXNativeTarget "OktaPKCEUITests" */;
 			buildPhases = (
+				F4ACD51A10F974EA7126D170 /* [CP] Check Pods Manifest.lock */,
 				10E6343821E9B28F009F4832 /* Sources */,
 				10E6343921E9B28F009F4832 /* Frameworks */,
 				10E6343A21E9B28F009F4832 /* Resources */,
@@ -251,6 +309,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A1F2A4BF50F208A96339E65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OktaPKCETests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE6B4AB44C593BDA79D50787 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OktaPKCE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3F20A2E55C09F95865945D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OktaPKCE/Pods-OktaPKCE-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OktaPKCE/Pods-OktaPKCE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4ACD51A10F974EA7126D170 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OktaPKCEUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10E6341921E9B28C009F4832 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +391,8 @@
 			files = (
 				10E6342321E9B28C009F4832 /* ViewController.swift in Sources */,
 				10E6342121E9B28C009F4832 /* AppDelegate.swift in Sources */,
+				10E9620721EC058D00BD08A2 /* TokenResponse.swift in Sources */,
+				10E6345021E9B45C009F4832 /* AuthnResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +565,7 @@
 		};
 		10E6344621E9B28F009F4832 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEAAD200A94832CC06C71E56 /* Pods-OktaPKCE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +583,7 @@
 		};
 		10E6344721E9B28F009F4832 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DE82947FFFCBC75CE864BA9 /* Pods-OktaPKCE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +601,7 @@
 		};
 		10E6344921E9B28F009F4832 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA48158F26FDAFFB0F104C89 /* Pods-OktaPKCETests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +622,7 @@
 		};
 		10E6344A21E9B28F009F4832 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A0A04DF45F43DF050E02BCE /* Pods-OktaPKCETests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +643,7 @@
 		};
 		10E6344C21E9B28F009F4832 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 634C9ADB90DD0DC867AD8FFF /* Pods-OktaPKCEUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +663,7 @@
 		};
 		10E6344D21E9B28F009F4832 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 766BAF056F3850BC761C7E7E /* Pods-OktaPKCEUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
